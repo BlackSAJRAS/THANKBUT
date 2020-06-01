@@ -53,6 +53,7 @@ os.system('arch-chroot /mnt pacman -S --noconfirm jdk-openjdk')
 os.system('arch-chroot /mnt pacman -S --noconfirm termite')
 
 os.system('arch-chroot /mnt pacman -S --noconfirm gnome-software-packagekit-plugin')
+os.system('arch-chroot /mnt pacman -S --noconfirm base-devel')
 
 print('''By Sahibjot Singh Sidhu.
 official channel: BlackSAJRAS.
