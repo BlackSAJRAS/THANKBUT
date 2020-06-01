@@ -53,13 +53,7 @@ os.system('arch-chroot /mnt pacman -S --noconfirm jdk-openjdk')
 os.system('arch-chroot /mnt pacman -S --noconfirm termite')
 
 os.system('arch-chroot /mnt pacman -S --noconfirm gnome-software-packagekit-plugin')
-os.system('arch-chroot /mnt git clone https://aur.archlinux.org/snapd.git')
-os.s)ystem('arch-chroot /mnt cd snapd')
-os.system('arch-chroot /mnt makepkg -si')
 
-os.system('arch-chroot /mnt systemctl enable --now snapd.socket')
-
-os.system('arch-chroot /mnt snap install snap-store')
 print('''By Sahibjot Singh Sidhu.
 official channel: BlackSAJRAS.
 THANKS FOR USING
